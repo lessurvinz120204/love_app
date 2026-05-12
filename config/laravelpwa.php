@@ -9,7 +9,6 @@ return [
         'display' => 'standalone',
         'background_color' => '#fff0f6',
         'theme_color' => '#e91e8c',
-        'display' => 'standalone',
         'orientation'=> 'any',
         'status_bar'=> 'black',
         'icons' => [
