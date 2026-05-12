@@ -13,6 +13,8 @@ Route::post('/logout', [AuthController::class, 'logout']);
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 Route::post('/admin/upload', [AdminController::class, 'upload']);
 Route::delete('/admin/delete/{id}', [AdminController::class, 'delete']);
+Route::get('/admin/edit/{id}', [AdminController::class, 'edit']);     // ADD THIS
+Route::put('/admin/update/{id}', [AdminController::class, 'update']); // ADD THIS
 
 // User routes
 Route::get('/user/dashboard', [UserController::class, 'dashboard']);
